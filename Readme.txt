@@ -1,25 +1,35 @@
-TEXT MINING PROJECT - Davide Croatto, Hubert Nowak, Eleonora Zullo
+# TEXT MINING PROJECT
 
-Dataset: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
+## Overview
+This project focuses on **text mining and classification** using **Natural Language Processing (NLP) techniques**. It involves **text preprocessing, feature extraction, and machine learning models** to classify textual data effectively. The implementation is done in Python using various **NLP and machine learning libraries**.
 
-Required software:
-- Google Colab
+## Key Features
+- **Text Preprocessing**: Tokenization, stopword removal, stemming, and lemmatization.
+- **Feature Engineering**: TF-IDF and Count Vectorizer for feature extraction.
+- **Machine Learning Models**: Implemented Decision Tree, Random Forest, SVM, and BERT for text classification.
+- **Deep Learning (BERT)**: Fine-tuned transformer models for sentiment analysis.
+- **Performance Evaluation**: Used accuracy, classification reports, and cross-validation.
 
-Required libraries to install on Python:
-- For text preprocessing:
-	pip install nltk
-	pip install spacy
-- For text classification:
-	pip install scikit-learn
-- For BERT:
-	pip install transformers
-	pip install torch
-	pip install peft
-	pip install datasets
-	pip install evaluate
-- For topic modeling:
-	pip install gensim
-	pip install wordcloud
-	pip install matplotlib
+## Technologies Used
+- **Python (pandas, numpy, re, nltk, spacy)**
+- **Machine Learning (scikit-learn, Decision Trees, SVM, Random Forests)**
+- **Deep Learning (BERT, Transformers library)**
+- **Google Colab for experimentation**
 
-To run the project, please refer to the code. Note that the first chunks are related to the libraries and data import. 
+## What I Learned
+- **NLP Pipeline**: Mastered text preprocessing, tokenization, and feature engineering.
+- **Machine Learning & Deep Learning**: Gained experience in traditional ML models and fine-tuning transformer models.
+- **Data Analysis & Evaluation**: Implemented methods to evaluate model performance effectively.
+- **Hands-on AI Experience**: Worked with **BERT and transformers** for text classification.
+
+## Usage
+1. Load and preprocess textual data.
+2. Extract features using TF-IDF or Count Vectorizer.
+3. Train and evaluate different ML models.
+4. Experiment with BERT for improved text classification.
+
+## Contributors
+- **Davide Croatto**
+- **Hubert Nowak**
+- **Eleonora Zullo**
+
